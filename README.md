@@ -8,6 +8,6 @@ la scene sera composer de 6 personnage qui seront activer par les touche qwerty 
 
 Les personnages seront de petit monstres trouver dans keney 
 
-![photo](sample.png)
+![photo](sample_petit.png)
 
 

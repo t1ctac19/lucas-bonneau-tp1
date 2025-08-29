@@ -14,5 +14,5 @@ Les personnages seront de petits monstres trouvés dans Keney, qui bougeront lor
 
 ## Description sonore
 
-Les sons seront des bruits mélodiques ou des instruments de musique qui fonctionneraient bien en harmonie.
+Les sons seront des bruits mélodiques ou des instruments de musique qui fonctionneraient bien en harmonie le but serais de faire une mélodie avec les monstres.
 

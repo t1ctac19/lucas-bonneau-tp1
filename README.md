@@ -2,12 +2,17 @@
 
 ## Description de la scene
 
-la scene sera composer de 6 personnage qui seront activer par les touche qwerty du clavier, chaque personnage sera attribuer a une des touches et lorsque l'utilisateur cliquera sur l'une des touche le personnage se levera et fera un bruit musical 
+La scène sera composée de 6 personnages qui seront activés par les touches QWERTY du clavier. Chaque personnage sera attribué à une des touches, et lorsque l'utilisateur cliquera sur l'une des touches, le personnage se lèvera et fera un bruit musical.
 
 ## Description des visuel
 
-Les personnages seront de petit monstres trouver dans keney 
+Les personnages seront de petits monstres trouvés dans Keney, qui bougeront lorsqu'on les active : ils ouvriront la bouche et bougeront les bras.
 
 ![photo](sample_petit.png)
 
+
+
+## Description sonore
+
+Les sons seront des bruits mélodiques ou des instruments de musique qui fonctionneraient bien en harmonie.
 

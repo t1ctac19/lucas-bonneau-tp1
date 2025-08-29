@@ -2,4 +2,10 @@
 
 ## Description de la scene
 
-la scène sera composé de plusieur objet interactif qui seront disposer dans une chambre et qui pourront être bouger grace au touche qwerty du clavier, cela 
+la scene sera composer de 6 personnage qui seront activer par les touche qwerty du clavier, chaque personnage sera attribuer a une des touches et lorsque l'utilisateur cliquera sur l'une des touche le personnage se levera et fera un bruit musical 
+
+## Description des visuel
+
+Les personnages seront de petit monstres trouver dans keney 
+
+

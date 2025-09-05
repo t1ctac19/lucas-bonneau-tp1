@@ -8,7 +8,7 @@ La scène sera composée de 6 personnages qui seront activés par les touches QW
 
 Les personnages seront de petits monstres trouvés dans Keney, qui bougeront lorsqu'on les active : ils ouvriront la bouche et bougeront les bras.
 
-![photo](sample_petit.png)
+![photo](medias/sample_petit.png)
 
 
 

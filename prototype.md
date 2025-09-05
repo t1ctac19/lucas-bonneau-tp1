@@ -3,6 +3,11 @@
 ![photo](medias/photo_prototype.png)
 
 
+## Version jouable
+
+Mon exportation ne fonctionne pas, mais mon jeu marche assez bien pour le moment
+
+
 ## Son 
 
 Pour le moment le jeu a seulemet la touche "Q" d'attribuer a un son mais lorsque je vais trouver d'autre son qui marche bien avec le jeu ils seront implémenté dans le jeu

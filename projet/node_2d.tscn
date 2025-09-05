@@ -1,0 +1,468 @@
+[gd_scene load_steps=47 format=3 uid="uid://j5cw0pallbdu"]
+
+[ext_resource type="Texture2D" uid="uid://buuswmom84cvw" path="res://kenney_monster-builder-pack/PNG/Default/body_blueB.png" id="1_hqns4"]
+[ext_resource type="Texture2D" uid="uid://bcyihe1mwo5js" path="res://background-elements/Backgrounds/backgroundColorGrass.png" id="1_k73cj"]
+[ext_resource type="Script" uid="uid://bbwdhh1q301cw" path="res://node_2d.gd" id="1_rjqkl"]
+[ext_resource type="Texture2D" uid="uid://ba7ihcxxhpb88" path="res://kenney_monster-builder-pack/PNG/Default/arm_blueA.png" id="2_x0ka3"]
+[ext_resource type="Texture2D" uid="uid://d3rlitmpqjld1" path="res://kenney_monster-builder-pack/PNG/Default/detail_blue_horn_large.png" id="3_0h7mo"]
+[ext_resource type="Texture2D" uid="uid://c5q4nfubmxkrq" path="res://kenney_monster-builder-pack/PNG/Default/leg_blueA.png" id="4_nr8wp"]
+[ext_resource type="Texture2D" uid="uid://cxonl3kgcorrw" path="res://kenney_monster-builder-pack/PNG/Default/eye_human_blue.png" id="5_d2bti"]
+[ext_resource type="Texture2D" uid="uid://ddq0fm1pj43cs" path="res://kenney_monster-builder-pack/PNG/Default/mouth_closed_fangs.png" id="6_ta5nu"]
+[ext_resource type="Texture2D" uid="uid://dej65xg8t1cj5" path="res://kenney_monster-builder-pack/PNG/Default/detail_green_ear.png" id="7_flf07"]
+[ext_resource type="Texture2D" uid="uid://cvn7rpm0w0nlw" path="res://kenney_monster-builder-pack/PNG/Default/mouthB.png" id="7_ta5nu"]
+[ext_resource type="Texture2D" uid="uid://vbxfuqohwtcb" path="res://kenney_monster-builder-pack/PNG/Default/body_greenE.png" id="8_k73cj"]
+[ext_resource type="Texture2D" uid="uid://da5wml84a1ui2" path="res://kenney_monster-builder-pack/PNG/Default/leg_greenB.png" id="9_flf07"]
+[ext_resource type="Texture2D" uid="uid://b52ql7p3o51gc" path="res://kenney_monster-builder-pack/PNG/Default/body_greenC.png" id="9_rjqkl"]
+[ext_resource type="Texture2D" uid="uid://df6yaebkgxdsk" path="res://kenney_monster-builder-pack/PNG/Default/eye_human_green.png" id="10_fs4d3"]
+[ext_resource type="Texture2D" uid="uid://lkqdh3k4p5jc" path="res://kenney_monster-builder-pack/PNG/Default/arm_greenC.png" id="10_k73cj"]
+[ext_resource type="Texture2D" uid="uid://qdmrmx50usji" path="res://kenney_monster-builder-pack/PNG/Default/eye_psycho_light.png" id="11_7vxoj"]
+[ext_resource type="Texture2D" uid="uid://dy6twoxl0hgqe" path="res://kenney_monster-builder-pack/PNG/Default/arm_greenD.png" id="11_rjqkl"]
+[ext_resource type="Texture2D" uid="uid://cckxgea5vh5a8" path="res://kenney_monster-builder-pack/PNG/Default/mouth_closed_teeth.png" id="16_fs4d3"]
+[ext_resource type="AudioStream" uid="uid://c0oh28c6uokhw" path="res://beatbox/son_bleu.wav" id="19_rjqkl"]
+[ext_resource type="Texture2D" uid="uid://kp6yslexm0fq" path="res://kenney_monster-builder-pack/PNG/Default/body_darkC.png" id="20_2u7jv"]
+[ext_resource type="Texture2D" uid="uid://psytlxb2gtih" path="res://kenney_monster-builder-pack/PNG/Default/arm_darkE.png" id="21_24dk6"]
+[ext_resource type="Texture2D" uid="uid://blwtbrygte2r8" path="res://kenney_monster-builder-pack/PNG/Default/leg_darkE.png" id="22_mryly"]
+[ext_resource type="Texture2D" uid="uid://cbpxelocd4lwe" path="res://kenney_monster-builder-pack/PNG/Default/mouth_closed_happy.png" id="23_kq1c5"]
+[ext_resource type="Texture2D" uid="uid://b4j3fjbkt3bc3" path="res://kenney_monster-builder-pack/PNG/Default/eye_human_red.png" id="24_ornx7"]
+[ext_resource type="Texture2D" uid="uid://bo10kow2r0vd4" path="res://kenney_monster-builder-pack/PNG/Default/body_redA.png" id="25_cnnru"]
+[ext_resource type="Texture2D" uid="uid://crteyg2wtm81k" path="res://kenney_monster-builder-pack/PNG/Default/arm_redB.png" id="26_540hr"]
+[ext_resource type="Texture2D" uid="uid://bblkglcfc17g3" path="res://kenney_monster-builder-pack/PNG/Default/detail_red_ear_round.png" id="27_6ip5v"]
+[ext_resource type="Texture2D" uid="uid://daeuuolaqxmvj" path="res://kenney_monster-builder-pack/PNG/Default/eye_blue.png" id="28_q5dlx"]
+[ext_resource type="Texture2D" uid="uid://cd5atfs1o3fqa" path="res://kenney_monster-builder-pack/PNG/Default/eye_closed_happy.png" id="29_c4wnb"]
+[ext_resource type="Texture2D" uid="uid://bhsmniaxsfg2i" path="res://kenney_monster-builder-pack/PNG/Default/leg_redC.png" id="30_7plk7"]
+[ext_resource type="Texture2D" uid="uid://dlrg84d7uvl6q" path="res://kenney_monster-builder-pack/PNG/Default/body_whiteF.png" id="31_6ip5v"]
+[ext_resource type="Texture2D" uid="uid://tapf2ekso8o4" path="res://kenney_monster-builder-pack/PNG/Default/leg_whiteC.png" id="32_q5dlx"]
+[ext_resource type="Texture2D" uid="uid://d2ir5soqi3h2c" path="res://kenney_monster-builder-pack/PNG/Default/detail_white_eye.png" id="33_c4wnb"]
+[ext_resource type="Texture2D" uid="uid://bl42xldjbnlh5" path="res://kenney_monster-builder-pack/PNG/Default/mouth_closed_sad.png" id="34_7plk7"]
+[ext_resource type="Texture2D" uid="uid://8g8o21341f2u" path="res://kenney_monster-builder-pack/PNG/Default/eye_yellow.png" id="35_fbwgr"]
+[ext_resource type="Texture2D" uid="uid://dha2h10kmw0q2" path="res://kenney_monster-builder-pack/PNG/Default/arm_whiteA.png" id="36_7mj2a"]
+[ext_resource type="Texture2D" uid="uid://j72knwncpl1q" path="res://kenney_monster-builder-pack/PNG/Default/arm_whiteE.png" id="37_fshgd"]
+[ext_resource type="Texture2D" uid="uid://ct3nf5qae4gg5" path="res://kenney_monster-builder-pack/PNG/Default/body_yellowB.png" id="38_fshgd"]
+[ext_resource type="Texture2D" uid="uid://bch6tddo7xwns" path="res://kenney_monster-builder-pack/PNG/Default/detail_yellow_horn_large.png" id="39_lbrxf"]
+[ext_resource type="Texture2D" uid="uid://b0j70crhn2xpt" path="res://kenney_monster-builder-pack/PNG/Default/eyebrowA.png" id="40_xjt7e"]
+[ext_resource type="Texture2D" uid="uid://l4jvhosi041w" path="res://kenney_monster-builder-pack/PNG/Default/eye_angry_red.png" id="41_0xo8l"]
+[ext_resource type="Texture2D" uid="uid://dwrn6gaugysck" path="res://kenney_monster-builder-pack/PNG/Default/leg_yellowE.png" id="42_xfyss"]
+[ext_resource type="Texture2D" uid="uid://by7tttjlsn0u1" path="res://kenney_monster-builder-pack/PNG/Default/arm_yellowA.png" id="43_3ngjr"]
+
+[sub_resource type="Animation" id="Animation_ei405"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D/blue/MouthClosedFangs:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D/blue/MouthB:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_7vxoj"]
+resource_name = "iddle"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D/blue/MouthClosedFangs:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.133333, 0.466667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D/blue/MouthB:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.133333, 0.466667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e8dv2"]
+_data = {
+&"RESET": SubResource("Animation_ei405"),
+&"iddle": SubResource("Animation_7vxoj")
+}
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_rjqkl")
+
+[node name="BackgroundColorGrass" type="Sprite2D" parent="."]
+position = Vector2(574, 310)
+scale = Vector2(1.12891, 1)
+texture = ExtResource("1_k73cj")
+
+[node name="AnimatedSprite2D" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_e8dv2")
+}
+
+[node name="blue" type="Sprite2D" parent="AnimatedSprite2D"]
+top_level = true
+position = Vector2(199, 315)
+scale = Vector2(0.585938, 0.585938)
+texture = ExtResource("1_hqns4")
+
+[node name="ArmBlueA3" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+show_behind_parent = true
+position = Vector2(-154, -37)
+scale = Vector2(1.02322, 0.962786)
+texture = ExtResource("2_x0ka3")
+centered = false
+flip_h = true
+
+[node name="ArmBlueA2" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+show_behind_parent = true
+position = Vector2(75, -37)
+scale = Vector2(1.01154, 0.981217)
+texture = ExtResource("2_x0ka3")
+centered = false
+
+[node name="DetailBlueHornLarge" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+position = Vector2(-63, -71)
+rotation = 3.14159
+scale = Vector2(0.919995, -1)
+texture = ExtResource("3_0h7mo")
+
+[node name="DetailBlueHornLarge2" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+position = Vector2(62, -68)
+texture = ExtResource("3_0h7mo")
+
+[node name="LegBlueA" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+show_behind_parent = true
+position = Vector2(49, 138)
+texture = ExtResource("4_nr8wp")
+
+[node name="LegBlueA2" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+show_behind_parent = true
+position = Vector2(-47, 136)
+rotation = 3.14159
+scale = Vector2(0.959998, -1)
+texture = ExtResource("4_nr8wp")
+
+[node name="EyeHumanBlue" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+position = Vector2(-1, -21)
+texture = ExtResource("5_d2bti")
+
+[node name="MouthClosedFangs" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+position = Vector2(-1, 44)
+texture = ExtResource("6_ta5nu")
+
+[node name="MouthB" type="Sprite2D" parent="AnimatedSprite2D/blue"]
+position = Vector2(0.0369129, 49.5686)
+scale = Vector2(0.922722, 0.922722)
+texture = ExtResource("7_ta5nu")
+
+[node name="Green" type="Sprite2D" parent="."]
+position = Vector2(513, 358)
+scale = Vector2(0.375, 0.375)
+texture = ExtResource("8_k73cj")
+
+[node name="LegGreenB" type="Sprite2D" parent="Green"]
+show_behind_parent = true
+position = Vector2(44.8302, 171.849)
+scale = Vector2(1.24528, 1.24528)
+texture = ExtResource("9_flf07")
+
+[node name="LegGreenB2" type="Sprite2D" parent="Green"]
+show_behind_parent = true
+position = Vector2(-56.0377, 171.849)
+scale = Vector2(1.24528, 1.24528)
+texture = ExtResource("9_flf07")
+flip_h = true
+
+[node name="ArmGreenC" type="Sprite2D" parent="Green"]
+show_behind_parent = true
+position = Vector2(-100.868, -12.4529)
+rotation = 0.333762
+scale = Vector2(0.940316, 0.940316)
+texture = ExtResource("10_k73cj")
+flip_h = true
+
+[node name="ArmGreenD" type="Sprite2D" parent="Green"]
+show_behind_parent = true
+position = Vector2(89.6604, -4.98111)
+rotation = -0.297805
+scale = Vector2(0.906891, 0.906891)
+texture = ExtResource("11_rjqkl")
+
+[node name="BodyGreenC" type="Sprite2D" parent="Green"]
+position = Vector2(1.24524, -193.019)
+scale = Vector2(1.24528, 1.24528)
+texture = ExtResource("9_rjqkl")
+
+[node name="EyeHumanGreen" type="Sprite2D" parent="Green"]
+position = Vector2(42.3396, -215.434)
+scale = Vector2(0.817217, 0.817217)
+texture = ExtResource("10_fs4d3")
+
+[node name="EyePsychoLight" type="Sprite2D" parent="Green"]
+position = Vector2(-42.3397, -215.434)
+scale = Vector2(0.846405, 0.846405)
+texture = ExtResource("11_7vxoj")
+
+[node name="DetailGreenEar2" type="Sprite2D" parent="Green"]
+position = Vector2(-70.9811, -287.66)
+scale = Vector2(1.24528, 1.24528)
+texture = ExtResource("7_flf07")
+flip_h = true
+
+[node name="DetailGreenEar" type="Sprite2D" parent="Green"]
+position = Vector2(68.4905, -287.66)
+scale = Vector2(1.24528, 1.24528)
+texture = ExtResource("7_flf07")
+
+[node name="MouthClosedTeeth" type="Sprite2D" parent="Green"]
+position = Vector2(2.4906, -149.434)
+scale = Vector2(1.24528, 1.24528)
+texture = ExtResource("16_fs4d3")
+
+[node name="brun" type="Sprite2D" parent="."]
+position = Vector2(997, 359)
+scale = Vector2(0.641844, 0.641844)
+texture = ExtResource("20_2u7jv")
+
+[node name="ArmDarkE3" type="Sprite2D" parent="brun"]
+position = Vector2(89.9998, -80.0001)
+rotation = 0.436332
+texture = ExtResource("21_24dk6")
+flip_v = true
+
+[node name="ArmDarkE4" type="Sprite2D" parent="brun"]
+position = Vector2(-86.9999, -80)
+rotation = -0.436332
+texture = ExtResource("21_24dk6")
+flip_h = true
+flip_v = true
+
+[node name="LegDarkE" type="Sprite2D" parent="brun"]
+show_behind_parent = true
+position = Vector2(34, 93)
+texture = ExtResource("22_mryly")
+
+[node name="LegDarkE2" type="Sprite2D" parent="brun"]
+show_behind_parent = true
+position = Vector2(-42, 95)
+texture = ExtResource("22_mryly")
+flip_h = true
+
+[node name="MouthClosedHappy" type="Sprite2D" parent="brun"]
+position = Vector2(-2, 6)
+texture = ExtResource("23_kq1c5")
+
+[node name="EyeHumanRed" type="Sprite2D" parent="brun"]
+position = Vector2(-2, -35)
+texture = ExtResource("24_ornx7")
+
+[node name="rouge" type="Sprite2D" parent="."]
+position = Vector2(373, 375)
+scale = Vector2(0.536364, 0.536364)
+texture = ExtResource("25_cnnru")
+
+[node name="ArmRedB" type="Sprite2D" parent="rouge"]
+show_behind_parent = true
+position = Vector2(94.9999, 13)
+rotation = -0.436332
+texture = ExtResource("26_540hr")
+
+[node name="ArmRedB2" type="Sprite2D" parent="rouge"]
+show_behind_parent = true
+position = Vector2(-97, 12.9999)
+rotation = 0.436332
+texture = ExtResource("26_540hr")
+flip_h = true
+
+[node name="DetailRedEarRound" type="Sprite2D" parent="rouge"]
+position = Vector2(-55, -100)
+texture = ExtResource("27_6ip5v")
+flip_h = true
+
+[node name="DetailRedEarRound2" type="Sprite2D" parent="rouge"]
+position = Vector2(55, -100)
+texture = ExtResource("27_6ip5v")
+
+[node name="EyeBlue" type="Sprite2D" parent="rouge"]
+position = Vector2(-56, -96)
+scale = Vector2(0.562502, 0.562502)
+texture = ExtResource("28_q5dlx")
+
+[node name="EyeBlue2" type="Sprite2D" parent="rouge"]
+position = Vector2(56, -97)
+scale = Vector2(0.563, 0.563)
+texture = ExtResource("28_q5dlx")
+flip_h = true
+
+[node name="EyeClosedHappy" type="Sprite2D" parent="rouge"]
+position = Vector2(-4, -16)
+texture = ExtResource("29_c4wnb")
+
+[node name="LegRedC" type="Sprite2D" parent="rouge"]
+show_behind_parent = true
+position = Vector2(49, 103)
+texture = ExtResource("30_7plk7")
+
+[node name="LegRedC2" type="Sprite2D" parent="rouge"]
+show_behind_parent = true
+position = Vector2(-49, 105)
+texture = ExtResource("30_7plk7")
+flip_h = true
+
+[node name="blanc" type="Sprite2D" parent="."]
+position = Vector2(817, 332)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("31_6ip5v")
+
+[node name="LegWhiteC" type="Sprite2D" parent="blanc"]
+show_behind_parent = true
+position = Vector2(60, 122)
+texture = ExtResource("32_q5dlx")
+
+[node name="LegWhiteC2" type="Sprite2D" parent="blanc"]
+show_behind_parent = true
+position = Vector2(-55, 125)
+texture = ExtResource("32_q5dlx")
+flip_h = true
+
+[node name="DetailWhiteEye" type="Sprite2D" parent="blanc"]
+position = Vector2(78, -105)
+texture = ExtResource("33_c4wnb")
+
+[node name="DetailWhiteEye3" type="Sprite2D" parent="blanc"]
+position = Vector2(-74, -57)
+rotation = -0.541052
+texture = ExtResource("33_c4wnb")
+flip_h = true
+
+[node name="MouthClosedSad" type="Sprite2D" parent="blanc"]
+position = Vector2(0, 29)
+texture = ExtResource("34_7plk7")
+
+[node name="EyeYellow2" type="Sprite2D" parent="blanc"]
+position = Vector2(3, -59)
+scale = Vector2(0.71875, 0.71875)
+texture = ExtResource("35_fbwgr")
+
+[node name="ArmWhiteA" type="Sprite2D" parent="blanc"]
+show_behind_parent = true
+position = Vector2(89, 23)
+rotation = -0.436332
+texture = ExtResource("36_7mj2a")
+
+[node name="ArmWhiteE" type="Sprite2D" parent="blanc"]
+show_behind_parent = true
+position = Vector2(-89, 31)
+rotation = 0.436332
+texture = ExtResource("37_fshgd")
+flip_h = true
+
+[node name="jaune" type="Sprite2D" parent="."]
+position = Vector2(642, 365)
+scale = Vector2(0.388021, 0.388021)
+texture = ExtResource("38_fshgd")
+
+[node name="BodyYellowB" type="Sprite2D" parent="jaune"]
+position = Vector2(1.30615, -159.347)
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("38_fshgd")
+
+[node name="DetailYellowHornLarge" type="Sprite2D" parent="jaune"]
+position = Vector2(87.5103, -248.163)
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("39_lbrxf")
+
+[node name="DetailYellowHornLarge2" type="Sprite2D" parent="jaune"]
+position = Vector2(-83.5918, -248.163)
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("39_lbrxf")
+flip_h = true
+
+[node name="EyebrowA" type="Sprite2D" parent="jaune"]
+position = Vector2(33.9592, -194.612)
+rotation = -0.436332
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("40_xjt7e")
+
+[node name="EyebrowA2" type="Sprite2D" parent="jaune"]
+position = Vector2(-32.6531, -194.612)
+rotation = 0.436332
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("40_xjt7e")
+flip_h = true
+
+[node name="EyeAngryRed" type="Sprite2D" parent="jaune"]
+position = Vector2(49.6327, -148.898)
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("41_0xo8l")
+
+[node name="EyeAngryRed2" type="Sprite2D" parent="jaune"]
+position = Vector2(-50.9388, -148.898)
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("41_0xo8l")
+flip_h = true
+
+[node name="LegYellowE" type="Sprite2D" parent="jaune"]
+show_behind_parent = true
+position = Vector2(74.449, 121.469)
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("42_xfyss")
+
+[node name="LegYellowE2" type="Sprite2D" parent="jaune"]
+show_behind_parent = true
+position = Vector2(-70.5306, 118.857)
+scale = Vector2(1.30612, 1.30612)
+texture = ExtResource("42_xfyss")
+flip_h = true
+
+[node name="ArmYellowA" type="Sprite2D" parent="jaune"]
+show_behind_parent = true
+position = Vector2(124.082, 27.4285)
+rotation = -0.436332
+scale = Vector2(1.01878, 1.01878)
+texture = ExtResource("43_3ngjr")
+
+[node name="ArmYellowA2" type="Sprite2D" parent="jaune"]
+show_behind_parent = true
+position = Vector2(-122.776, 30.0407)
+rotation = 0.436332
+scale = Vector2(1.01941, 1.01941)
+texture = ExtResource("43_3ngjr")
+flip_h = true
+
+[node name="MouthClosedFangs" type="Sprite2D" parent="jaune"]
+position = Vector2(-1.30615, -95.347)
+texture = ExtResource("6_ta5nu")
+
+[node name="SonMonstreBleu" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(195, 344)
+stream = ExtResource("19_rjqkl")
+volume_db = -13.0
+
+[node name="SonMonstreRouge" type="AudioStreamPlayer2D" parent="."]
+
+[node name="SonMonstreVert" type="AudioStreamPlayer2D" parent="."]
+
+[node name="SonMonstreBlanc" type="AudioStreamPlayer2D" parent="."]
+
+[node name="SonMonstreJaune" type="AudioStreamPlayer2D" parent="."]
+
+[node name="SonMonstreBrun" type="AudioStreamPlayer2D" parent="."]

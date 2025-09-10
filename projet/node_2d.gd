@@ -17,7 +17,7 @@ extends Node2D
 var audio_unlocked := false
 
 func _ready():
-	# Connexions pour stopper les animations
+	# Connexion pour stopper les animations quand les sons finissent
 	SonMonstreBleu.finished.connect(_on_son_bleu_finished)
 	SonMonstreRouge.finished.connect(_on_son_rouge_finished)
 	SonMonstreVert.finished.connect(_on_son_vert_finished)
@@ -27,14 +27,14 @@ func _ready():
 
 
 func _input(event):
-	# --- Déblocage audio HTML5 ---
+	# --- Déblocage audio HTML5 au premier appui ---
 	if not audio_unlocked and event.is_pressed():
-		var temp = AudioStreamPlayer.new()
-		add_child(temp)
-		temp.stream = AudioStreamWAV.new() # son vide
-		temp.play()
+		var dummy = AudioStreamPlayer.new()
+		add_child(dummy)
+		dummy.stream = AudioStreamWAV.new()  # son vide
+		dummy.play()
 		audio_unlocked = true
-		print("Audio débloqué !")
+		print("Audio HTML5 débloqué !")
 
 	# --- Sons et animations ---
 	if Input.is_action_just_pressed("jouer_son_bleu"):
@@ -62,7 +62,7 @@ func _input(event):
 		AnimationBrun.play("dance")
 
 
-# Stop animations après sons
+# Stop animations après fin des sons
 func _on_son_bleu_finished():
 	AnimationBleu.stop()
 func _on_son_rouge_finished():

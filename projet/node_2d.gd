@@ -16,62 +16,42 @@ extends Node2D
 
 var audio_unlocked := false
 
-func _ready():
-	# Connexion pour stopper les animations quand les sons finissent
-	SonMonstreBleu.finished.connect(_on_son_bleu_finished)
-	SonMonstreRouge.finished.connect(_on_son_rouge_finished)
-	SonMonstreVert.finished.connect(_on_son_vert_finished)
-	SonMonstreBlanc.finished.connect(_on_son_blanc_finished)
-	SonMonstreJaune.finished.connect(_on_son_jaune_finished)
-	SonMonstreBrun.finished.connect(_on_son_brun_finished)
-
-
 func _input(event):
-	# --- Déblocage audio HTML5 au premier appui ---
+	# Débloque l’audio HTML5 au premier appui sur une touche QWERTY
 	if not audio_unlocked and event.is_pressed():
-		var dummy = AudioStreamPlayer.new()
-		add_child(dummy)
-		dummy.stream = AudioStreamWAV.new()  # son vide
-		dummy.play()
-		audio_unlocked = true
-		print("Audio HTML5 débloqué !")
+		if event.is_action("jouer_son_bleu") or event.is_action("jouer_son_rouge") \
+		or event.is_action("jouer_son_vert") or event.is_action("jouer_son_blanc") \
+		or event.is_action("jouer_son_jaune") or event.is_action("jouer_son_brun"):
+			
+			SonMonstreBleu.play()  # joue un vrai son pour débloquer
+			SonMonstreBleu.stop()  # stop immédiat
+			audio_unlocked = true
+			print("Audio HTML5 débloqué !")
 
-	# --- Sons et animations ---
+	# Jouer les sons et animations
 	if Input.is_action_just_pressed("jouer_son_bleu"):
 		SonMonstreBleu.play()
 		AnimationBleu.play("dance")
-
 	if Input.is_action_just_pressed("jouer_son_rouge"):
 		SonMonstreRouge.play()
 		AnimationRouge.play("dance")
-
 	if Input.is_action_just_pressed("jouer_son_vert"):
 		SonMonstreVert.play()
 		AnimationVert.play("dance")
-
 	if Input.is_action_just_pressed("jouer_son_blanc"):
 		SonMonstreBlanc.play()
 		AnimationBlanc.play("dance")
-
 	if Input.is_action_just_pressed("jouer_son_jaune"):
 		SonMonstreJaune.play()
 		AnimationJaune.play("dance")
-
 	if Input.is_action_just_pressed("jouer_son_brun"):
 		SonMonstreBrun.play()
 		AnimationBrun.play("dance")
 
-
-# Stop animations après fin des sons
-func _on_son_bleu_finished():
-	AnimationBleu.stop()
-func _on_son_rouge_finished():
-	AnimationRouge.stop()
-func _on_son_vert_finished():
-	AnimationVert.stop()
-func _on_son_blanc_finished():
-	AnimationBlanc.stop()
-func _on_son_jaune_finished():
-	AnimationJaune.stop()
-func _on_son_brun_finished():
-	AnimationBrun.stop()
+# Stop animations
+func _on_son_bleu_finished(): AnimationBleu.stop()
+func _on_son_rouge_finished(): AnimationRouge.stop()
+func _on_son_vert_finished(): AnimationVert.stop()
+func _on_son_blanc_finished(): AnimationBlanc.stop()
+func _on_son_jaune_finished(): AnimationJaune.stop()
+func _on_son_brun_finished(): AnimationBrun.stop()

@@ -114,7 +114,7 @@ animations = [{
 script = ExtResource("1_rjqkl")
 
 [node name="BackgroundColorGrass" type="Sprite2D" parent="."]
-position = Vector2(944.5, 336.348)
+position = Vector2(967, 432)
 scale = Vector2(1.90723, 1.46026)
 texture = ExtResource("1_k73cj")
 
@@ -124,46 +124,47 @@ anchor_left = 3.422
 anchor_top = -2.159
 anchor_right = 8.366
 anchor_bottom = -1.824
-offset_left = 242.0
-offset_top = 81.0
-offset_right = 407.0
-offset_bottom = 120.0
+offset_left = 339.0
+offset_top = 195.0
+offset_right = 504.0
+offset_bottom = 234.0
 scale = Vector2(1.65, 1.65)
 text = "Essaie qwerty !"
+metadata/_edit_use_anchors_ = true
 
 [node name="Animation_bleu" type="AnimatedSprite2D" parent="."]
-position = Vector2(228, 398)
+position = Vector2(224.058, 495.509)
 scale = Vector2(0.814732, 0.814732)
 sprite_frames = SubResource("SpriteFrames_0xo8l")
 animation = &"dance"
 
 [node name="Animation_rouge" type="AnimatedSprite2D" parent="."]
-position = Vector2(588, 413)
+position = Vector2(584.058, 510.509)
 scale = Vector2(0.852187, 0.852187)
 sprite_frames = SubResource("SpriteFrames_7mj2a")
 animation = &"dance"
 
 [node name="Animation_vert" type="AnimatedSprite2D" parent="."]
-position = Vector2(854, 389)
+position = Vector2(850.058, 486.509)
 scale = Vector2(0.581683, 0.581683)
 sprite_frames = SubResource("SpriteFrames_cnnru")
 animation = &"dance"
 
 [node name="Animation_jaune" type="AnimatedSprite2D" parent="."]
-position = Vector2(1091, 394)
+position = Vector2(1087.06, 491.509)
 scale = Vector2(0.56383, 0.563829)
 sprite_frames = SubResource("SpriteFrames_2u7jv")
 animation = &"dance"
 
 [node name="Animation_blanc" type="AnimatedSprite2D" parent="."]
-position = Vector2(1369, 389)
+position = Vector2(1365.06, 486.509)
 scale = Vector2(0.823741, 0.823741)
 sprite_frames = SubResource("SpriteFrames_bjha6")
 animation = &"dance"
 frame_progress = 0.92238
 
 [node name="Animation_brun" type="AnimatedSprite2D" parent="."]
-position = Vector2(1689, 425)
+position = Vector2(1685.06, 522.509)
 scale = Vector2(0.877359, 0.877359)
 sprite_frames = SubResource("SpriteFrames_ei405")
 animation = &"dance"

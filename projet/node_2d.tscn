@@ -169,26 +169,26 @@ scale = Vector2(0.877359, 0.877359)
 sprite_frames = SubResource("SpriteFrames_ei405")
 animation = &"dance"
 
-[node name="SonMonstreBleu" type="AudioStreamPlayer" parent="."]
+[node name="SonMonstreBleu" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("19_rjqkl")
 volume_db = -12.0
 
-[node name="SonMonstreRouge" type="AudioStreamPlayer" parent="."]
+[node name="SonMonstreRouge" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("44_lbrxf")
 volume_db = -20.0
 
-[node name="SonMonstreVert" type="AudioStreamPlayer" parent="."]
+[node name="SonMonstreVert" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("45_3ngjr")
 volume_db = -15.0
 
-[node name="SonMonstreJaune" type="AudioStreamPlayer" parent="."]
+[node name="SonMonstreJaune" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("46_qilgh")
 volume_db = -12.0
 
-[node name="SonMonstreBlanc" type="AudioStreamPlayer" parent="."]
+[node name="SonMonstreBlanc" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("47_4qosj")
 volume_db = -12.0
 
-[node name="SonMonstreBrun" type="AudioStreamPlayer" parent="."]
+[node name="SonMonstreBrun" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("48_cjlbh")
 volume_db = -12.0

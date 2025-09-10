@@ -14,11 +14,10 @@ extends Node2D
 @onready var AnimationJaune = $Animation_jaune
 @onready var AnimationBrun = $Animation_brun
 
-# Pour débloquer l’audio HTML5
 var audio_unlocked := false
 
 func _ready():
-	# Connexions pour arrêter les animations quand le son est fini
+	# Connexions pour stopper les animations
 	SonMonstreBleu.finished.connect(_on_son_bleu_finished)
 	SonMonstreRouge.finished.connect(_on_son_rouge_finished)
 	SonMonstreVert.finished.connect(_on_son_vert_finished)
@@ -28,7 +27,7 @@ func _ready():
 
 
 func _input(event):
-	# --- Déblocage audio HTML5 au premier appui ---
+	# --- Déblocage audio HTML5 ---
 	if not audio_unlocked and event.is_pressed():
 		var temp = AudioStreamPlayer.new()
 		add_child(temp)
@@ -37,53 +36,42 @@ func _input(event):
 		audio_unlocked = true
 		print("Audio débloqué !")
 
-	# --- Ton code original des sons et animations ---
+	# --- Sons et animations ---
 	if Input.is_action_just_pressed("jouer_son_bleu"):
-		print("Action détectée !")
 		SonMonstreBleu.play()
 		AnimationBleu.play("dance")
 
 	if Input.is_action_just_pressed("jouer_son_rouge"):
-		print("Action détectée !")
 		SonMonstreRouge.play()
 		AnimationRouge.play("dance")
 
 	if Input.is_action_just_pressed("jouer_son_vert"):
-		print("Action détectée !")
 		SonMonstreVert.play()
 		AnimationVert.play("dance")
 
 	if Input.is_action_just_pressed("jouer_son_blanc"):
-		print("Action détectée !")
 		SonMonstreBlanc.play()
 		AnimationBlanc.play("dance")
 
 	if Input.is_action_just_pressed("jouer_son_jaune"):
-		print("Action détectée !")
 		SonMonstreJaune.play()
 		AnimationJaune.play("dance")
 
 	if Input.is_action_just_pressed("jouer_son_brun"):
-		print("Action détectée !")
 		SonMonstreBrun.play()
 		AnimationBrun.play("dance")
 
 
-# Fonctions pour stopper les animations après le son
+# Stop animations après sons
 func _on_son_bleu_finished():
 	AnimationBleu.stop()
-
 func _on_son_rouge_finished():
 	AnimationRouge.stop()
-
 func _on_son_vert_finished():
 	AnimationVert.stop()
-
 func _on_son_blanc_finished():
 	AnimationBlanc.stop()
-
 func _on_son_jaune_finished():
 	AnimationJaune.stop()
-
 func _on_son_brun_finished():
 	AnimationBrun.stop()

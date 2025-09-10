@@ -138,25 +138,25 @@ sprite_frames = SubResource("SpriteFrames_0xo8l")
 animation = &"dance"
 
 [node name="Animation_rouge" type="AnimatedSprite2D" parent="."]
-position = Vector2(588, 413)
+position = Vector2(551, 414)
 scale = Vector2(0.852187, 0.852187)
 sprite_frames = SubResource("SpriteFrames_7mj2a")
 animation = &"dance"
 
 [node name="Animation_vert" type="AnimatedSprite2D" parent="."]
-position = Vector2(854, 389)
+position = Vector2(808, 394)
 scale = Vector2(0.581683, 0.581683)
 sprite_frames = SubResource("SpriteFrames_cnnru")
 animation = &"dance"
 
 [node name="Animation_jaune" type="AnimatedSprite2D" parent="."]
-position = Vector2(1091, 394)
+position = Vector2(1030, 401)
 scale = Vector2(0.56383, 0.563829)
 sprite_frames = SubResource("SpriteFrames_2u7jv")
 animation = &"dance"
 
 [node name="Animation_blanc" type="AnimatedSprite2D" parent="."]
-position = Vector2(1369, 389)
+position = Vector2(1288.5, 373.473)
 scale = Vector2(0.823741, 0.823741)
 sprite_frames = SubResource("SpriteFrames_bjha6")
 animation = &"dance"

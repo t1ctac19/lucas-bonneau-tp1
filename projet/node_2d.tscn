@@ -124,10 +124,10 @@ anchor_left = 3.422
 anchor_top = -2.159
 anchor_right = 8.366
 anchor_bottom = -1.824
-offset_left = 339.0
-offset_top = 195.0
-offset_right = 504.0
-offset_bottom = 234.0
+offset_left = 242.0
+offset_top = 81.0
+offset_right = 407.0
+offset_bottom = 120.0
 scale = Vector2(1.65, 1.65)
 text = "Essaie qwerty !"
 metadata/_edit_use_anchors_ = true
@@ -173,30 +173,24 @@ animation = &"dance"
 position = Vector2(-3, -2)
 stream = ExtResource("19_rjqkl")
 volume_db = -13.0
-max_distance = 4096.0
 
 [node name="SonMonstreRouge" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(-3, 3)
 stream = ExtResource("44_lbrxf")
 volume_db = -22.524
-max_distance = 4096.0
 
 [node name="SonMonstreVert" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(1, 2)
 stream = ExtResource("45_3ngjr")
-max_distance = 4096.0
 
 [node name="SonMonstreJaune" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(-2, 3)
 stream = ExtResource("46_qilgh")
-max_distance = 4096.0
 
 [node name="SonMonstreBlanc" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(-2, 2)
 stream = ExtResource("47_4qosj")
-max_distance = 4096.0
 
 [node name="SonMonstreBrun" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(-7, 10)
 stream = ExtResource("48_cjlbh")
-max_distance = 4096.0

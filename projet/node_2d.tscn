@@ -15,11 +15,11 @@
 [ext_resource type="Texture2D" uid="uid://cnumv6rfxwqap" path="res://spritesheet/1x/Fichier 20.png" id="13_fs4d3"]
 [ext_resource type="Texture2D" uid="uid://bpvitbt2ealul" path="res://spritesheet/1x/Fichier 21.png" id="14_7vxoj"]
 [ext_resource type="AudioStream" uid="uid://fpvvywojnx8e" path="res://beatbox/son_bleu.wav" id="19_rjqkl"]
-[ext_resource type="AudioStream" uid="uid://cy3b17lfb26i8" path="res://beatbox/batterie.mp3" id="44_lbrxf"]
-[ext_resource type="AudioStream" uid="uid://dgdwy30slli8i" path="res://beatbox/boodiba.wav" id="45_3ngjr"]
-[ext_resource type="AudioStream" uid="uid://k0qrx0gvqwgq" path="res://beatbox/sevenoseven.wav" id="46_qilgh"]
-[ext_resource type="AudioStream" uid="uid://b4movijmetgpa" path="res://beatbox/2_temps.wav" id="47_4qosj"]
-[ext_resource type="AudioStream" uid="uid://b2kjmafiq6ox3" path="res://beatbox/toybeat-107384.mp3" id="48_cjlbh"]
+[ext_resource type="AudioStream" uid="uid://cy3b17lfb26i8" path="res://beatbox/son_rouge.mp3" id="44_lbrxf"]
+[ext_resource type="AudioStream" uid="uid://dgdwy30slli8i" path="res://beatbox/son_vert.wav" id="45_3ngjr"]
+[ext_resource type="AudioStream" uid="uid://k0qrx0gvqwgq" path="res://beatbox/son_jaune.wav" id="46_qilgh"]
+[ext_resource type="AudioStream" uid="uid://b4movijmetgpa" path="res://beatbox/son_blanc.wav" id="47_4qosj"]
+[ext_resource type="AudioStream" uid="uid://b2kjmafiq6ox3" path="res://beatbox/son_brun.mp3" id="48_cjlbh"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0xo8l"]
 animations = [{

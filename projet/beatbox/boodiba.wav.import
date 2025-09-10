@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://fpvvywojnx8e"
-path="res://.godot/imported/son_bleu.wav-2f6889173c5fdf25bd5ab01cb6da6068.sample"
+uid="uid://dgdwy30slli8i"
+path="res://.godot/imported/boodiba.wav-335102b868eacfedd71f75240f252b91.sample"
 
 [deps]
 
-source_file="res://beatbox/son_bleu.wav"
-dest_files=["res://.godot/imported/son_bleu.wav-2f6889173c5fdf25bd5ab01cb6da6068.sample"]
+source_file="res://beatbox/boodiba.wav"
+dest_files=["res://.godot/imported/boodiba.wav-335102b868eacfedd71f75240f252b91.sample"]
 
 [params]
 

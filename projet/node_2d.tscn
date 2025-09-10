@@ -114,8 +114,8 @@ animations = [{
 script = ExtResource("1_rjqkl")
 
 [node name="BackgroundColorGrass" type="Sprite2D" parent="."]
-position = Vector2(736, 269)
-scale = Vector2(1.5, 1.32872)
+position = Vector2(944.5, 336.348)
+scale = Vector2(1.90723, 1.46026)
 texture = ExtResource("1_k73cj")
 
 [node name="TextEdit" type="TextEdit" parent="."]
@@ -124,47 +124,47 @@ anchor_left = 3.422
 anchor_top = -2.159
 anchor_right = 8.366
 anchor_bottom = -1.824
-offset_left = 266.0
-offset_top = 75.0
-offset_right = 431.0
-offset_bottom = 114.0
+offset_left = 242.0
+offset_top = 81.0
+offset_right = 407.0
+offset_bottom = 120.0
 scale = Vector2(1.65, 1.65)
 text = "Essaie qwerty !"
 
 [node name="Animation_bleu" type="AnimatedSprite2D" parent="."]
-position = Vector2(156, 327)
-scale = Vector2(0.685365, 0.685365)
+position = Vector2(228, 398)
+scale = Vector2(0.814732, 0.814732)
 sprite_frames = SubResource("SpriteFrames_0xo8l")
 animation = &"dance"
 
 [node name="Animation_rouge" type="AnimatedSprite2D" parent="."]
-position = Vector2(352.594, 366.465)
-scale = Vector2(0.607029, 0.607029)
+position = Vector2(551, 414)
+scale = Vector2(0.852187, 0.852187)
 sprite_frames = SubResource("SpriteFrames_7mj2a")
 animation = &"dance"
 
 [node name="Animation_vert" type="AnimatedSprite2D" parent="."]
-position = Vector2(505, 336)
-scale = Vector2(0.483498, 0.483498)
+position = Vector2(808, 394)
+scale = Vector2(0.581683, 0.581683)
 sprite_frames = SubResource("SpriteFrames_cnnru")
 animation = &"dance"
 
 [node name="Animation_jaune" type="AnimatedSprite2D" parent="."]
-position = Vector2(639, 366)
-scale = Vector2(0.446809, 0.446808)
+position = Vector2(1030, 401)
+scale = Vector2(0.56383, 0.563829)
 sprite_frames = SubResource("SpriteFrames_2u7jv")
 animation = &"dance"
 
 [node name="Animation_blanc" type="AnimatedSprite2D" parent="."]
-position = Vector2(821, 326)
-scale = Vector2(0.705036, 0.705036)
+position = Vector2(1288.5, 373.473)
+scale = Vector2(0.823741, 0.823741)
 sprite_frames = SubResource("SpriteFrames_bjha6")
 animation = &"dance"
 frame_progress = 0.92238
 
 [node name="Animation_brun" type="AnimatedSprite2D" parent="."]
-position = Vector2(1026, 337)
-scale = Vector2(0.698113, 0.698113)
+position = Vector2(1689, 425)
+scale = Vector2(0.877359, 0.877359)
 sprite_frames = SubResource("SpriteFrames_ei405")
 animation = &"dance"
 
